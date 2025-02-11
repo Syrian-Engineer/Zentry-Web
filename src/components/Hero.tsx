@@ -15,7 +15,8 @@ const Hero = ()=>{
 
     const totalVideos = 4;
 
-    const nextVideoRef = useRef(null);
+    const nextVideoRef = useRef<HTMLVideoElement | null>(null);
+
 
     const handleVideoLoad = ()=>{
      setLoadedVideos((prevIndex)=>prevIndex + 1)    

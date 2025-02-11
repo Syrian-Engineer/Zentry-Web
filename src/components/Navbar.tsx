@@ -8,8 +8,8 @@ import gsap from "gsap";
 const Navbar = ()=>{
     const navItems = ["Nexus", "Vault", "Prologue", "About", "Contact"];
 
-    const audioElementRef = useRef(null);
-    const navContainerRef = useRef(null)
+    const audioElementRef = useRef<HTMLAudioElement | null>(null);
+    const navContainerRef = useRef<HTMLDivElement | null>(null);
 
     const [isIndicatorActive,setIndicatiorActive] = useState(false)
     const [isAudioPlaying,setAudioPlaying] = useState(false);

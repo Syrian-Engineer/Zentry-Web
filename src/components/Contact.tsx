@@ -1,4 +1,3 @@
-import AnimatedTitle from "./AnimatedTitle";
 import Button from "./Button";
 
 interface Props{
